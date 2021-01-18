@@ -1,0 +1,325 @@
+*,
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+.collapse{
+    text-align: center;
+}
+
+
+.container-fluid{
+    padding: 0
+}
+
+
+.collapse {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cel img{
+    width: 80%;
+    margin-bottom: 2vh;
+    margin-left: 3vh;
+    
+}
+
+
+
+.cel{
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+        
+
+}
+
+.aa{
+    font-size: 2.5rem
+}
+
+#primeiro p{
+    text-align: justify;
+    color: hsl(233, 8%, 62%);
+    font-weight: 600;
+    margin-top: 1rem;
+    
+   
+}
+
+
+#primeiro{
+    text-align: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+}
+
+p{
+    color: hsl(233, 8%, 62%);
+}
+
+
+.By{
+    font-size: 12px;
+}
+
+.navbar{
+    padding-left: 12vw;
+}
+
+.nav-link{
+    margin-right: 3vw;
+}
+
+#btn{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%) ,hsl(192, 70%, 51%));
+    border-radius: 30px;
+    border: none;
+    width: 50%;
+    height: 50px;
+    margin-top: 2vh;
+    margin-bottom: 20vh;
+    color: white;
+    font-weight: 700;
+}
+
+
+#btn2{
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%) ,hsl(192, 70%, 51%));
+    border-radius: 30px;
+    border: none;
+    width: 50%;
+    height: 50px;
+    margin-top: 2vh;
+    color: white;
+    margin-bottom: 3vh;
+    font-weight: 700;
+    margin-left: 25px;
+    
+}
+
+
+
+.foto{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+
+.btn{
+    
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%) ,hsl(192, 70%, 51%));
+    border-radius: 30px;
+    border: none;
+    width: 8%;.
+    height: 50px;
+    
+    color: white;
+    font-weight: 700;
+    margin-left: 10vw;
+    
+    
+
+}
+
+.foto p{
+    text-align: justify;
+}
+
+.Latest{
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+}
+
+
+h2{
+    font-size: 2.7em;
+    
+} 
+
+#sea{
+    padding:
+    
+}
+
+
+.season{
+    margin-bottom: 3vh;
+}
+
+.textos{
+    padding: 1rem
+}
+
+.fotos{
+    width: 100%;
+    margin-bottom: 3vh;
+    height: 200px;
+     
+}
+
+
+.icons{
+    
+    margin-top: 2vh;
+    
+    
+    
+}
+
+.div1{
+    list-style-type:none;
+    margin-top: 3vh;
+    
+        
+    
+}
+
+
+
+.div1 a:hover{
+    text-decoration: none;
+    color: #006400;
+}
+
+.div1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 0;
+    
+}
+
+
+
+.p-4 a{
+    text-decoration: none;
+    color:  hsl(233, 8%, 62%);
+    font-size: 20px
+}
+
+.p-4{
+    list-style-type:none;
+    text-align: center;
+}
+
+
+
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    text-align: center;
+   
+}
+ 
+.footer-logo{
+   
+    margin-top: 4vh;
+    margin-bottom: 2em;
+    
+}
+
+.icons img{
+    margin-left: 12px;
+    
+    
+
+}
+
+@media (min-width: 690px){
+    #sea{
+        text-align: left;
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    } 
+
+
+   .footerfora{
+       display: flex;
+       justify-content: space-around;
+       padding-top: 2rem;
+       margin-top: 3rem;
+       
+   }
+
+
+   .Latest{
+       text-align: left;
+   }
+   
+
+   #btn2{
+       width: 80%;
+       margin-top: 4vh;
+   }
+
+
+   .cel{
+       width: 50%;
+       position: relative;
+       
+   }
+
+   
+
+   #primeiro{
+       text-align: left;
+       margin-top: 20vh;
+       padding-left: 0;
+
+       padding-right: 10vw;
+       
+    }
+
+    .foto{
+        margin-bottom: 5rem;
+    }
+
+   .season{
+       text-align: left;
+   }
+   
+
+   .row{
+       display: flex;
+       flex-direction: row-reverse;
+   }
+
+    #btn{
+        width: 40%
+    }
+    
+    
+        
+
+    h3{
+        margin-top:2rem ;
+        margin-bottom:2rem ;
+    }
+    
+    h2{
+        margin-bottom: 1.5rem;
+    }
+
+} 
