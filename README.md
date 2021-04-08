@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page
-Responsive Easybank page made with Boostrap and CSS flex.
-https://dev99pedro.github.io/Easycard/
+RESPONSIVE EASYBANK PAGE MADE WITH BOOTSTRAP AND CSS FLEX
+
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
